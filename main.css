@@ -1,0 +1,142 @@
+
+/* ANIMATION */
+@keyframes fadeInUp {
+   0% {
+      opacity: 0;
+      transform: translateY(10px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+/* FONT */
+@font-face {
+  font-family: 'hyperspace';
+	src: url('fonts/Hyperspace.eot');
+ 	src: url('fonts/Hyperspace.ttf') format('truetype');
+  src: url('fonts/Hyperspace.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'granite';
+	src: url('fonts/GraniteModern.eot');
+ 	src: url('fonts/GraniteModern.ttf') format('truetype');
+  src: url('fonts/GraniteModern.woff') format('woff');
+}
+
+/* TAGS, DIVS, CLASSES */
+body{
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.comment{
+  -webkit-text-stroke: 1px black;
+  animation: fadeInUp .5s;
+  color:black;
+  font-family: 'hyperspace';
+  font-size: 2em;
+  font-weight: bold;
+  height:80px;
+  line-height:80px;
+  margin-bottom: 1px;
+  padding:5px;
+  text-align: center;
+}
+
+#content{
+  margin: 0px auto;
+  margin-top:30px;
+  min-width:375px;
+  width:800px;
+}
+
+form{
+  text-align:left-align;
+}
+
+h1{
+  color:black;
+  font-family: 'hyperspace';
+  font-size: 3em;
+  text-align: center;
+}
+
+h3{
+  color:black;
+  text-align: center;
+}
+
+#header{
+  margin-top:40px;
+}
+
+#q2, #q3, #q4{
+  animation: fadeInUp .5s;
+}
+
+.button{
+	font-size:2em;
+	font-family: 'hyperspace';
+	width:120px;
+	height:60px;
+	background-color:white;
+	border:1px solid black;
+	color: black;
+	text-align:center;
+    line-height:60px;
+    display:inline-block;
+}
+
+.button:hover{
+	background-color:black;
+	color:white;
+}
+
+
+.answer{
+	background-color:white;
+	border:1px solid black;
+	color: black;
+	float:right;
+	font-size:1.5em;
+	height:78px;
+	width:14%;
+	min-width:40px;
+	line-height:80px;
+}
+
+.question_c{
+  background-color:black;
+  color: white; 
+  font-family: 'hyperspace';
+  margin-bottom: 10px;
+  height:80px;
+  text-align:center;
+  width:800px;
+  vertical-align:middle;
+}
+
+.question{
+  background-color: black;
+  font-size:2em;
+  line-height:80px;
+  float:left; 
+  min-width:310px;
+  height:80px;
+  max-height:160px;
+  width: 85%;
+}
+
+#result{
+  line-height:80px;
+  color:white;
+  height:80px;
+}
+
+select{
+  float:right;
+  margin-top: 10px;
+}
